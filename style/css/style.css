@@ -342,7 +342,7 @@
     gap: 23px;
   }
   .first_section .first_container .bottom_icons {
-    margin-left: -100px;
+    margin-left: -300px;
   }
   .first_section .first_container .bottom_icons .unorderedlist_for_icons {
     width: 1170px;
@@ -464,14 +464,14 @@
     gap: 23px;
   }
   .first_section .first_container .bottom_icons {
-    margin-left: -100px;
+    margin-left: -350px;
   }
   .first_section .first_container .bottom_icons .unorderedlist_for_icons {
-    width: 1170px;
-    height: 217px;
+    width: 1100px;
+    height: 100px;
     list-style: none;
     display: flex;
-    gap: 92px;
+    gap: 46px;
     justify-content: center;
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
@@ -605,14 +605,14 @@
     gap: 23px;
   }
   .first_section .first_container .bottom_icons {
-    margin-left: -100px;
+    margin-left: -350px;
   }
   .first_section .first_container .bottom_icons .unorderedlist_for_icons {
-    width: 1170px;
-    height: 217px;
+    width: 600px;
+    height: 100px;
     list-style: none;
     display: flex;
-    gap: 92px;
+    gap: 46px;
     justify-content: center;
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
@@ -746,14 +746,14 @@
     gap: 23px;
   }
   .first_section .first_container .bottom_icons {
-    margin-left: -100px;
+    margin-left: -350px;
   }
   .first_section .first_container .bottom_icons .unorderedlist_for_icons {
-    width: 1170px;
-    height: 217px;
+    width: 600px;
+    height: 100px;
     list-style: none;
     display: flex;
-    gap: 92px;
+    gap: 46px;
     justify-content: center;
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
@@ -816,6 +816,73 @@
     filter: blur(5px);
   }
 }
+@media screen and (max-width: 645px) {
+  .first_section {
+    width: 100%;
+  }
+  .first_section .first_container .bottom_icons {
+    margin-left: -350px;
+    margin-top: -320px;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons {
+    width: 480px;
+    list-style: none;
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    display: block;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .clock {
+    margin-bottom: 15px;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .clock li {
+    align-content: center;
+    justify-content: center;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .clock h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .clock h6 {
+    text-align: center;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .location {
+    margin-bottom: 15px;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .location li {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .location h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .location h6 {
+    text-align: center;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .phone li {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .phone h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+  }
+  .first_section .first_container .bottom_icons .unorderedlist_for_icons .phone h6 {
+    text-align: center;
+  }
+}
+.second_section .sides {
+  width: 100%;
+}
 .second_section .sides .background {
   height: 694px;
   transform: rotateY(180deg);
@@ -866,6 +933,271 @@
   color: #F16214;
 }
 
+@media screen and (max-width: 1390px) {
+  .second_section .sides .background {
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 550px;
+    left: 180px;
+    top: 1200px;
+  }
+  .second_section .sides .background img {
+    height: 490px;
+  }
+  .second_section .sides .right_side {
+    width: 570px;
+    margin-left: 700px;
+  }
+}
+@media screen and (max-width: 1290px) {
+  .second_section .sides .background {
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 550px;
+    left: 180px;
+    top: 1200px;
+  }
+  .second_section .sides .background img {
+    height: 490px;
+    opacity: 0.25;
+    filter: blur(2px);
+    z-index: -1;
+  }
+  .second_section .sides .right_side {
+    width: 570px;
+    margin-left: 200px;
+  }
+  .second_section .sides .right_side h5:first-child {
+    font-size: 14px;
+    color: #F16214;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .second_section .sides .right_side h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 45px;
+    text-align: center;
+  }
+  .second_section .sides .right_side .lorem_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #888888;
+    text-align: center;
+  }
+  .second_section .sides .right_side .learn_more_btn {
+    padding-top: 29px;
+    padding-left: 200px;
+  }
+  .second_section .sides .right_side .learn_more_btn .learn_more {
+    border-radius: 54px;
+    width: 160px;
+    height: 50px;
+    background-color: #F16214;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border-style: none;
+  }
+  .second_section .sides .right_side .learn_more_btn .learn_more .arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #F16214;
+  }
+}
+@media screen and (max-width: 890px) {
+  .second_section {
+    border: 2px solid black;
+  }
+  .second_section .sides .background {
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 550px;
+    left: 0px;
+    top: 1350px;
+  }
+  .second_section .sides .background img {
+    height: 350px;
+    opacity: 0.25;
+    filter: blur(2px);
+    z-index: -1;
+  }
+  .second_section .sides .right_side {
+    width: 570px;
+    margin-left: 200px;
+  }
+  .second_section .sides .right_side h5:first-child {
+    font-size: 14px;
+    color: #F16214;
+    font-weight: 700;
+    padding-bottom: 2px;
+    text-align: center;
+  }
+  .second_section .sides .right_side h3 {
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .second_section .sides .right_side .lorem_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #888888;
+    text-align: center;
+  }
+  .second_section .sides .right_side .learn_more_btn {
+    padding-top: 29px;
+    padding-left: 200px;
+  }
+  .second_section .sides .right_side .learn_more_btn .learn_more {
+    border-radius: 54px;
+    width: 160px;
+    height: 50px;
+    background-color: #F16214;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border-style: none;
+  }
+  .second_section .sides .right_side .learn_more_btn .learn_more .arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #F16214;
+  }
+}
+@media screen and (max-width: 793px) {
+  .second_section {
+    border: 2px solid black;
+  }
+  .second_section .sides .background {
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 550px;
+    left: 0px;
+    top: 1350px;
+  }
+  .second_section .sides .background img {
+    height: 350px;
+    opacity: 0.25;
+    filter: blur(2px);
+    z-index: -1;
+  }
+  .second_section .sides .right_side {
+    width: 370px;
+    margin-left: 50px;
+  }
+  .second_section .sides .right_side h5:first-child {
+    font-size: 14px;
+    color: #F16214;
+    font-weight: 700;
+    padding-bottom: 2px;
+    text-align: center;
+  }
+  .second_section .sides .right_side h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .second_section .sides .right_side .lorem_text {
+    font-weight: 400;
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+  }
+  .second_section .sides .right_side .learn_more_btn {
+    padding-top: 29px;
+    padding-left: 200px;
+  }
+  .second_section .sides .right_side .learn_more_btn .learn_more {
+    border-radius: 54px;
+    width: 80px;
+    height: 25px;
+    background-color: #F16214;
+    font-size: 8px;
+    font-weight: 700;
+    color: white;
+    border-style: none;
+  }
+  .second_section .sides .right_side .learn_more_btn .learn_more .arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #F16214;
+  }
+}
+@media screen and (max-width: 793px) {
+  .second_section {
+    border: 2px solid black;
+  }
+  .second_section .sides .background {
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 550px;
+    left: 0px;
+    top: 900px;
+  }
+  .second_section .sides .background img {
+    height: 350px;
+    opacity: 0.25;
+    filter: blur(2px);
+    z-index: -1;
+  }
+  .second_section .sides .right_side {
+    width: 370px;
+    margin-left: 50px;
+  }
+  .second_section .sides .right_side h5:first-child {
+    font-size: 14px;
+    color: #F16214;
+    font-weight: 700;
+    padding-bottom: 2px;
+    text-align: center;
+  }
+  .second_section .sides .right_side h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .second_section .sides .right_side .lorem_text {
+    font-weight: 400;
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+  }
+  .second_section .sides .right_side .learn_more_btn {
+    padding-top: 29px;
+    padding-left: 200px;
+  }
+  .second_section .sides .right_side .learn_more_btn .learn_more {
+    border-radius: 54px;
+    width: 80px;
+    height: 25px;
+    background-color: #F16214;
+    font-size: 8px;
+    font-weight: 700;
+    color: white;
+    border-style: none;
+  }
+  .second_section .sides .right_side .learn_more_btn .learn_more .arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #F16214;
+  }
+}
 .third_section {
   margin-top: 200px;
   margin-left: 175px;
@@ -976,6 +1308,218 @@
   color: rgb(136, 136, 136);
 }
 
+@media screen and (max-width: 1380px) {
+  .third_section .heading {
+    border: 2px solid red;
+    width: max-content;
+    width: 100%;
+  }
+  .third_section .heading .services {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(241, 98, 20);
+  }
+  .third_section .heading .favourite {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant {
+    padding-top: 59px;
+  }
+  .third_section .info_about_restaurant .unordered_list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 395px;
+    width: 370px;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block {
+    margin-left: 90px;
+    margin-top: 90px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 395px;
+    width: 370px;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block {
+    margin-left: 90px;
+    margin-top: 90px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 395px;
+    width: 370px;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block {
+    margin-left: 90px;
+    margin-top: 90px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+}
+@media screen and (max-width: 1080px) {
+  .third_section .heading {
+    border: 2px solid red;
+  }
+  .third_section .heading .services {
+    padding-right: 50%;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(241, 98, 20);
+  }
+  .third_section .heading .favourite {
+    border: 2px solid red;
+    margin-right: 600px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding-right: 50%;
+    width: max-content;
+  }
+  .third_section .info_about_restaurant {
+    padding-top: 35px;
+  }
+  .third_section .info_about_restaurant .unordered_list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 300px;
+    width: 370px;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block {
+    margin-left: 45px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 300px;
+    width: 370px;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block {
+    margin-left: 45px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 300px;
+    width: 370px;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block {
+    margin-left: 45px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+}
 .fourth_section .goods {
   margin-top: 97px;
   text-align: center;
@@ -1817,7 +2361,6 @@
 }
 
 .main_container {
-  width: 100%;
   border: 1px solid red;
   background-color: #FFFFFF;
   color: #272042;
