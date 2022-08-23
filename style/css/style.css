@@ -1310,12 +1310,10 @@
 
 @media screen and (max-width: 1380px) {
   .third_section .heading {
-    border: 2px solid red;
     width: max-content;
     width: 100%;
   }
   .third_section .heading .services {
-    text-align: center;
     font-size: 12px;
     font-weight: 700;
     color: rgb(241, 98, 20);
@@ -1342,7 +1340,7 @@
     width: 370px;
   }
   .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block {
-    margin-left: 90px;
+    margin-left: 30px;
     margin-top: 90px;
     text-align: center;
   }
@@ -1368,7 +1366,7 @@
     width: 370px;
   }
   .third_section .info_about_restaurant .unordered_list .healthy_food .second_block {
-    margin-left: 90px;
+    margin-left: 30px;
     margin-top: 90px;
     text-align: center;
   }
@@ -1394,7 +1392,7 @@
     width: 370px;
   }
   .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block {
-    margin-left: 90px;
+    margin-left: 30px;
     margin-top: 90px;
     text-align: center;
   }
@@ -1414,9 +1412,6 @@
   }
 }
 @media screen and (max-width: 1080px) {
-  .third_section .heading {
-    border: 2px solid red;
-  }
   .third_section .heading .services {
     padding-right: 50%;
     font-size: 12px;
@@ -1424,7 +1419,6 @@
     color: rgb(241, 98, 20);
   }
   .third_section .heading .favourite {
-    border: 2px solid red;
     margin-right: 600px;
     font-size: 20px;
     font-weight: 700;
@@ -1499,6 +1493,243 @@
     border-bottom-right-radius: 60px;
     height: 300px;
     width: 370px;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block {
+    margin-left: 45px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+}
+@media screen and (max-width: 945px) {
+  .third_section {
+    margin-bottom: 500px;
+  }
+  .third_section .heading {
+    position: relative;
+  }
+  .third_section .heading .services {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(241, 98, 20);
+    position: absolute;
+    bottom: 70px;
+    right: 120px;
+  }
+  .third_section .heading .favourite {
+    position: absolute;
+    right: -600px;
+    bottom: 30px;
+    margin-right: 600px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    width: max-content;
+  }
+  .third_section .info_about_restaurant {
+    padding-top: 20px;
+  }
+  .third_section .info_about_restaurant .unordered_list {
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 200px;
+    width: 300px;
+    padding-right: 30px;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block {
+    margin-left: 45px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 200px;
+    width: 300px;
+    padding-right: 30px;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block {
+    margin-left: 45px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 200px;
+    width: 300px;
+    padding-right: 30px;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block {
+    margin-left: 45px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+}
+@media screen and (max-width: 640px) {
+  .third_section {
+    margin-bottom: 500px;
+  }
+  .third_section .heading {
+    position: relative;
+  }
+  .third_section .heading .services {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(241, 98, 20);
+    position: absolute;
+    bottom: 70px;
+    right: 120px;
+  }
+  .third_section .heading .favourite {
+    position: absolute;
+    right: -600px;
+    bottom: 30px;
+    margin-right: 600px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    width: max-content;
+  }
+  .third_section .info_about_restaurant {
+    padding-top: 20px;
+  }
+  .third_section .info_about_restaurant .unordered_list {
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 200px;
+    width: 300px;
+    padding-right: 30px;
+    padding-bottom: 300px;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block {
+    margin-left: 45px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .qualityfull_food .first_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 200px;
+    width: 300px;
+    padding-right: 30px;
+    padding-bottom: 300px;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block {
+    margin-left: 45px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block .image {
+    width: 80px;
+    height: 80px;
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block p {
+    font-size: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .third_section .info_about_restaurant .unordered_list .healthy_food .second_block h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+  .third_section .info_about_restaurant .unordered_list .fast_delivery {
+    border: 1px solid rgb(238, 238, 238);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 200px;
+    width: 300px;
+    padding-right: 30px;
+    padding-bottom: 300px;
   }
   .third_section .info_about_restaurant .unordered_list .fast_delivery .third_block {
     margin-left: 45px;
@@ -1982,6 +2213,7 @@
 }
 
 .fiveth_section {
+  border: 2px solid red;
   margin: 0 auto;
 }
 .fiveth_section .application_menu {
@@ -2020,6 +2252,102 @@
   margin-right: 15px;
 }
 
+@media screen and (max-width: 1420px) {
+  .fiveth_section {
+    border: 2px solid red;
+    margin: 0 auto;
+  }
+  .fiveth_section .application_menu {
+    background-image: url(/icons/black_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    position: relative;
+    height: 500px;
+    margin-top: 300px;
+    margin-right: 150px;
+    background-size: 75%;
+  }
+  .fiveth_section .application_menu .view {
+    background-image: url(/icons/phones.png);
+    background-position: center;
+    background-color: transparent;
+    width: 628px;
+    height: 650px;
+    position: absolute;
+    top: -18%;
+    left: 57%;
+  }
+  .fiveth_section .application_menu .application_box {
+    padding-left: 21%;
+    padding-top: 100px;
+    padding-right: 43%;
+  }
+  .fiveth_section .application_menu .application_box h3 {
+    width: 47%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+  .fiveth_section .application_menu .application_box .android_phone {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .fiveth_section {
+    border: 2px solid red;
+    margin: 0 auto;
+  }
+  .fiveth_section .application_menu {
+    background-image: url(/icons/black_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    position: relative;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 150px;
+    background-size: 75%;
+  }
+  .fiveth_section .application_menu .view {
+    background-image: url(/icons/phones.png);
+    background-position: center;
+    background-color: transparent;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    width: 628px;
+    height: 650px;
+    position: absolute;
+    top: -18%;
+    left: 57%;
+  }
+  .fiveth_section .application_menu .application_box {
+    padding-left: 21%;
+    padding-top: 230px;
+    padding-right: 43%;
+  }
+  .fiveth_section .application_menu .application_box h3 {
+    width: 35%;
+    height: 35%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+  .fiveth_section .application_menu .application_box .android_phone {
+    margin-right: 15px;
+    height: 30%;
+    width: 30%;
+  }
+  .fiveth_section .application_menu .application_box .apple_phone {
+    margin-right: 15px;
+    height: 30%;
+    width: 30%;
+  }
+}
 .sixth_section {
   margin-bottom: 180px;
 }
