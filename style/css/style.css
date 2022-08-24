@@ -1010,9 +1010,6 @@
   }
 }
 @media screen and (max-width: 890px) {
-  .second_section {
-    border: 2px solid black;
-  }
   .second_section .sides .background {
     transform: rotateY(180deg);
     position: absolute;
@@ -1073,9 +1070,6 @@
   }
 }
 @media screen and (max-width: 793px) {
-  .second_section {
-    border: 2px solid black;
-  }
   .second_section .sides .background {
     transform: rotateY(180deg);
     position: absolute;
@@ -2213,7 +2207,6 @@
 }
 
 .fiveth_section {
-  border: 2px solid red;
   margin: 0 auto;
 }
 .fiveth_section .application_menu {
@@ -2254,7 +2247,6 @@
 
 @media screen and (max-width: 1420px) {
   .fiveth_section {
-    border: 2px solid red;
     margin: 0 auto;
   }
   .fiveth_section .application_menu {
@@ -2297,7 +2289,6 @@
 }
 @media screen and (max-width: 1220px) {
   .fiveth_section {
-    border: 2px solid red;
     margin: 0 auto;
   }
   .fiveth_section .application_menu {
@@ -2689,7 +2680,6 @@
 }
 
 .main_container {
-  border: 1px solid red;
   background-color: #FFFFFF;
   color: #272042;
 }
